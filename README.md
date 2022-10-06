@@ -1,1 +1,3 @@
 # ImputSim
+
+Install-Package InputSimulator

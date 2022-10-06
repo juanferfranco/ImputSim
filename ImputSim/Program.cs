@@ -78,7 +78,7 @@ namespace ImputSim
             {
                 Console.WriteLine(serialPortArgument);
 
-                _serialPort.PortName = "COM6";
+                _serialPort.PortName = serialPortArgument;
                 _serialPort.BaudRate = 115200;
                 _serialPort.NewLine = "\n";
                 _serialPort.DtrEnable = true;
